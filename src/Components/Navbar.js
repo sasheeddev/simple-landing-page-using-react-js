@@ -41,22 +41,29 @@ const Navbar = () => {
         },
 
         {
-            text:"Home",
-            icon:<HomeIcon/>,
-        },
-
-        {
-            text:"Home",
-            icon:<HomeIcon/>,
+            text:"Cart",
+            icon:<ShoppingCartRoundedIcon/>,
         },
 
         
     ]
   return (
-    <div>
-        Navbar
+    <nav>
+        <div className='nav-logo-container'>
+            <img src={Logo} alt=""/>
+        </div >
+
+        <div className='navbar-links-container'>
+            <a href=''>Home</a>
+            <a href=''>About</a>
+            <a href=''>Testinomials</a>
+            <a href=''>Contacts</a>
+            <a href=''></a>
+
+        </div>
+        
       
-    </div>
+    </nav>
   )
 }
 
