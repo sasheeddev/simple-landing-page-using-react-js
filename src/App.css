@@ -138,6 +138,7 @@ nav {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  left: 800px;
 }
 .primary-subheading {
   font-weight: 700;
@@ -359,6 +360,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
+    
   }
   .secondary-button {
     font-size: 1rem;
@@ -385,6 +387,8 @@ nav {
   }
   .about-section-image-container {
     margin-right: 0rem !important;
+    width: 100%;
+    max-width: 400px;
   }
   .work-section-wrapper {
     margin-top: 5rem !important;
