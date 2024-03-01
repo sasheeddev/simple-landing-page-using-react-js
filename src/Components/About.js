@@ -1,32 +1,27 @@
 import React from "react";
-import AboutBackground from "../Assets/sidebackground.png";
-import AboutBackgroundImage from "../Assets/transp.png";
+import AboutBackground from "../Assets/secbackground.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
 
 const About = () => {
   return (
     <div className="about-section-container">
-      <div className="about-background-image-container">
+      <div className="about-section-image-container">
         <img src={AboutBackground} alt="" />
       </div>
-      <div className="about-section-image-container">
-        <img src={AboutBackgroundImage} alt="" />
-      </div>
+      
 
 
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading">About Us</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          We are professional web developing team with more than 5 years experience
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          We ,thrimana are one of the best web developing team in field for five years
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+          Give your idea to us and we build that into reality
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
